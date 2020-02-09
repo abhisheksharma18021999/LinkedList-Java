@@ -61,7 +61,7 @@ import java.util.*;
 			node.data=data;
 			node.next=null;
 		    
-			if(index==0)
+			if(index==1)
 			{
 				addbeg(data);
 				
