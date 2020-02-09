@@ -15,3 +15,9 @@ Delete_alternate_node.java
 Reverse_linked_list.java
 -----------------------------------------------------------------------------------------------------------------------------------
 * code to reverse a linked list .
+
+
+
+Linked_list_as_Stack.java
+------------------------------------------------------------------------------------------------------------------------------------
+* This code has code to implement stack using linked list
