@@ -1,0 +1,27 @@
+	int getNode() 
+	{
+		HashSet<Node> h=new HashSet<Node>();
+		
+		  Node temp=head1;
+		  while(temp!=null)
+		  {
+			  h.add(temp);
+			  temp=temp.next;
+		  }
+		
+	        
+		 Node  temp1=head2;
+		  while(temp1!=null)
+		  {
+			  
+			  if(h.contains(temp1))
+			  {
+				  
+				  return temp1.data;
+			  }
+			  
+			  temp1=temp1.next;
+			  
+		  }
+		return -1;
+	}
